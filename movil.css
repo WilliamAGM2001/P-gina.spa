@@ -1,0 +1,141 @@
+@media screen and (max-width:769px){
+  .slider{
+    padding-top: 150px;
+    padding-bottom: 150px;
+    background-image: url(imagenes/slide3.jpg);
+    text-align: center;
+    background-position: center;
+  }
+  .productos{
+    max-width: 1200px;
+    margin: auto;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    padding-bottom: 10px;
+  }
+  .distanciatxt{
+    padding-top: 15px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    order:2;
+  }
+  .distanciatxt h3{
+    text-align: center;
+  }
+  .imgvelas img{
+    border: 8px #94ce53 solid;
+    width: 100%;
+    filter: opacity(100%);
+    transition: all 0.5s;
+    order:1;
+  }
+  .talento{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    padding-bottom: 15px;
+  }
+  .txttalento {
+    padding-left: 10px;
+  }
+  .servicios{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 10px;
+    gap: 20px;
+  }
+  .servicios article{
+    border-radius: 8px;
+    background-color: #ffe8a4;
+    max-width: 90%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+    padding-bottom: 20px;
+  }
+  .centrar{
+    padding-left: 18px;
+  }
+  .instalaciones{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+ .izquierda{
+  order:2;
+  max-width: 100%;
+ }
+ .derecha{
+  order:1;
+  max-width: 100%;
+ }
+}
+
+@media screen and (max-width:481px){
+nav{
+    display:none;
+}
+
+.social{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: space-between;
+  
+}
+.redesociales{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 30px;
+  padding-right: 20px;
+  margin: auto;
+}
+.iconmenu{
+  background-color: #ff3281;
+  color: white;
+  position: absolute;
+  right:10px;
+  top: 25%;
+  padding: 5px;
+  border-radius: 3px;
+}
+header{
+  position: relative;
+}
+.slider{
+  padding-top: 140px;
+  padding-bottom: 140px;
+  background-image: url(imagenes/slide2.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  gap: 45px;
+  text-align: center;
+}
+
+
+}
+
+
+
+
+
+
+
+
+
